@@ -2,9 +2,9 @@
 {
     public static class When
     {
-        public static void ICheckoutMyBasket(Supermarket supermarket, Basket basket, out decimal totalPrice)
+        public static void CustomerChecksOut(Supermarket supermarket, Cart cart, out decimal totalPrice)
         {
-            totalPrice = supermarket.Checkout(basket);
+            totalPrice = supermarket.Checkout(cart);
         }
     }
 }

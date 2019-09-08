@@ -3,24 +3,20 @@ using System.Linq;
 
 namespace Katas.Supermarket
 {
-
     public class Supermarket
     {
-        private readonly IBasketService _basketService;
+        public IList<Product> Products { get; }
 
-        public Supermarket(IBasketService basketService)
+        public Supermarket()
         {
-            _basketService = basketService;
+            Products = new List<Product>();
         }
 
-        public void AddProductsToBasket(IList<Product> product, Basket basket)
+        public decimal Checkout(Cart cart)
         {
-            _basketService.AddProductsToBasket(basket, product);
-        }
-
-        public decimal Checkout(Basket basket)
-        {
-            return basket.Products.Sum(p => p.Price);
+            return cart.Items
+                .Join(Products, i => i.ProductId, p => p.Id, (item, product) => item.Quantity * product.Price)
+                .Sum();
         }
     }
 }

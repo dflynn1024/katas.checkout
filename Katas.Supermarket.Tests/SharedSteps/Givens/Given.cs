@@ -4,14 +4,22 @@ namespace Katas.Supermarket.Tests.SharedSteps.Givens
 {
     public static class Given
     {
-        public static void IHaveABasket(out Basket basket)
+        public static void SupermarketHasTheFollowingProducts(Supermarket supermarket, IList<Product> products)
         {
-            basket = new Basket();
+            foreach (var product in products)
+            {
+                supermarket.Products.Add(product);
+            }
         }
 
-        public static void IHaveBoughtTheFollowingProducts(IList<Product> products, Supermarket supermarket, Basket basket )
+        public static void CustomerHasTheFollowingItemsInTheirCart(IList<CartItem> items, out Cart cart)
         {
-            supermarket.AddProductsToBasket(products, basket);
+            cart = new Cart();
+
+            foreach (var item in items)
+            {
+                cart.AddItem(item);
+            }
         }
     }
 }
