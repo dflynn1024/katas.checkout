@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LiveHire.Thingy\Katas.Supermarket.csproj" />
+    <ProjectReference Include="..\Katas.Supermarket\Katas.Supermarket.csproj" />
   </ItemGroup>
 
 </Project>

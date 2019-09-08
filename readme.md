@@ -1,6 +1,6 @@
 # Kata: Supermarket Checkout
 
-Create a supermarket checkout that calculates the following prices for items: 
+Create a supermarket checkout that calculates the following prices for items:
 
 1. Constant price:
    1. Can of Beans - $0.65
@@ -14,6 +14,6 @@ For example, a sale might be:
 * 5 x Avocados
 * 4 x Can of Soda
 
-Create a model to accommodate these rules and corresponding calculations. 
+Create a model to accommodate these rules and corresponding calculations.
 
 Use SOLID, TDD.
