@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveHire.Thingy", "LiveHire.Thingy\LiveHire.Thingy.csproj", "{F935749C-96FE-4872-BD76-B5DA60DB6FEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveHire.Thingy", "LiveHire.Thingy\LiveHire.Thingy.csproj", "{F935749C-96FE-4872-BD76-B5DA60DB6FEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveHire.Thingy.Tests", "LiveHire.Thingy.Tests\LiveHire.Thingy.Tests.csproj", "{3B0CB5EA-5443-4CDD-A75B-40FA4B4AA275}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveHire.Thingy.Tests", "LiveHire.Thingy.Tests\LiveHire.Thingy.Tests.csproj", "{3B0CB5EA-5443-4CDD-A75B-40FA4B4AA275}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveHire.Thingy.App", "LiveHire.Thingy.App\LiveHire.Thingy.App.csproj", "{79532273-713E-4860-AC88-10BB743B23DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveHire.Thingy.App", "LiveHire.Thingy.App\LiveHire.Thingy.App.csproj", "{79532273-713E-4860-AC88-10BB743B23DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E79A083-22F7-472A-8115-C29878DDDE2F}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
