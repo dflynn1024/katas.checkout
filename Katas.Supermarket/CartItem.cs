@@ -3,9 +3,9 @@
     public class CartItem
     {
         public int ProductId { get; }
-        public int Quantity { get; }
+        public decimal Quantity { get; }
 
-        public CartItem(int productId, int quantity)
+        public CartItem(int productId, decimal quantity)
         {
             ProductId = productId;
             Quantity = quantity;

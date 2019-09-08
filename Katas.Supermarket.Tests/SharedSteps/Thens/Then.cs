@@ -4,9 +4,9 @@ namespace Katas.Supermarket.Tests.SharedSteps.Thens
 {
     public static class Then
     {
-        public static void TotalToPayIs(decimal actualTotal, decimal expectedTotal)
+        public static void CheckoutSummaryIs(CheckoutSummary checkoutSummary, CheckoutSummary expectedCheckoutSummary)
         {
-            actualTotal.Should().Be(expectedTotal);
+            checkoutSummary.Should().BeEquivalentTo(expectedCheckoutSummary);
         }
     }
 }

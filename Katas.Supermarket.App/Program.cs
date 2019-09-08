@@ -8,7 +8,8 @@ namespace Katas.Supermarket.App
         {
             try
             {
-                Output("LiveHire Thingy v0.1 (beta)", OutputType.Title);
+                Output("Katas: Supermarket Checkout v0.1 (beta)", OutputType.Title);
+                Output("Nothing to see here!", OutputType.Info);
 
                 Prompt("Press any key to continue...");
 
