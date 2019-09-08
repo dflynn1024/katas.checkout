@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace LiveHire.Thingy
+namespace Katas.Supermarket
 {
 
     public class Supermarket

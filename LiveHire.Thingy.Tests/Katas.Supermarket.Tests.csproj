@@ -19,13 +19,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LiveHire.Thingy\LiveHire.Thingy.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Fixtures\" />
     <Folder Include="SharedSteps\Givens\" />
     <Folder Include="SharedSteps\Thens\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiveHire.Thingy\Katas.Supermarket.csproj" />
   </ItemGroup>
 
 </Project>

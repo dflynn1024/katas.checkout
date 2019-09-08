@@ -1,4 +1,4 @@
-﻿namespace LiveHire.Thingy.App
+﻿namespace Katas.Supermarket.App
 {
     public enum OutputType
     {

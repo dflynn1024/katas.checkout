@@ -1,11 +1,11 @@
-using LiveHire.Thingy.Tests.Fixtures;
-using LiveHire.Thingy.Tests.SharedSteps.Givens;
-using LiveHire.Thingy.Tests.SharedSteps.Thens;
-using LiveHire.Thingy.Tests.SharedSteps.Whens;
 using System.Collections.Generic;
+using Katas.Supermarket.Tests.Fixtures;
+using Katas.Supermarket.Tests.SharedSteps.Givens;
+using Katas.Supermarket.Tests.SharedSteps.Thens;
+using Katas.Supermarket.Tests.SharedSteps.Whens;
 using Xunit;
 
-namespace LiveHire.Thingy.Tests
+namespace Katas.Supermarket.Tests
 {
     public class SuperMarketTests : IClassFixture<SystemUnderTestFixture<Supermarket>>
     {

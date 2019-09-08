@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LiveHire.Thingy.App
+namespace Katas.Supermarket.App
 {
     internal class Program
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LiveHire.Thingy.Tests.SharedSteps.Givens
+namespace Katas.Supermarket.Tests.SharedSteps.Givens
 {
     public static class Given
     {

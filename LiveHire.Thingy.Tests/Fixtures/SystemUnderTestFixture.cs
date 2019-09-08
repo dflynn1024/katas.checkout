@@ -2,7 +2,7 @@
 using Autofac.Extras.Moq;
 using Moq;
 
-namespace LiveHire.Thingy.Tests.Fixtures
+namespace Katas.Supermarket.Tests.Fixtures
 {
     /// <summary>
     /// Use this fixture to setup your SuT (System Under Test)

@@ -1,4 +1,4 @@
-﻿namespace LiveHire.Thingy.Tests.SharedSteps.Whens
+﻿namespace Katas.Supermarket.Tests.SharedSteps.Whens
 {
     public static class When
     {

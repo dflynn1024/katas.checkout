@@ -1,4 +1,4 @@
-﻿namespace LiveHire.Thingy
+﻿namespace Katas.Supermarket
 {
     public class Product
     {

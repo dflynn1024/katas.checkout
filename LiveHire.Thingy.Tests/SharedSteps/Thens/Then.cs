@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
 
-namespace LiveHire.Thingy.Tests.SharedSteps.Thens
+namespace Katas.Supermarket.Tests.SharedSteps.Thens
 {
     public static class Then
     {

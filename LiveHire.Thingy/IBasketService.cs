@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LiveHire.Thingy
+namespace Katas.Supermarket
 {
     public interface IBasketService
     {

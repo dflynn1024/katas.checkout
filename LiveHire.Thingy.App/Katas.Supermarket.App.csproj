@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LiveHire.Thingy\LiveHire.Thingy.csproj" />
+    <ProjectReference Include="..\LiveHire.Thingy\Katas.Supermarket.csproj" />
   </ItemGroup>
 
 </Project>
