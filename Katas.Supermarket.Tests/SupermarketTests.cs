@@ -77,11 +77,11 @@ namespace Katas.Supermarket.Tests
                     expectedCheckoutSummary: new CheckoutSummary(0.00M, 0.00M)
                 ),
                 (
-                    name: "Scenario 4: Avocados on 3 for 2",
+                    name: "Scenario 4: Avocados on 3 for $3",
                     products: Products,
                     promotions: new Dictionary<int, IPromotion>
                     {
-                        {Avocados, new BuyXForY(3, 3.00M)}
+                        {Avocados, new BuyXForY(3, 3)}
                     },
                     items: new List<CartItem>
                     {
@@ -103,7 +103,7 @@ namespace Katas.Supermarket.Tests
                     expectedCheckoutSummary: new CheckoutSummary(4.10M, 2.05M)
                 ),
                 (
-                    name: "Scenario 6: Avocados on 3 for 2, Soda buy 1 get 1 free",
+                    name: "Scenario 6: Avocados on 3 for $3, Soda buy 1 get 1 free",
                     products: Products,
                     promotions: new Dictionary<int, IPromotion>
                     {
@@ -118,7 +118,7 @@ namespace Katas.Supermarket.Tests
                     expectedCheckoutSummary: new CheckoutSummary(7.85M, 2.80M)
                 ),
                 (
-                    name: "Scenario 7: Avocados on 3 for 2, Soda buy 1 get 1 free, Beans not on special",
+                    name: "Scenario 7: Avocados on 3 for $3, Soda buy 1 get 1 free, Beans not on special",
                     products: Products,
                     promotions: new Dictionary<int, IPromotion>
                     {
@@ -134,7 +134,7 @@ namespace Katas.Supermarket.Tests
                     expectedCheckoutSummary: new CheckoutSummary(11.10M, 2.80M)
                 ),
                 (
-                    name: "Scenario 8: Avocados on 3 for 2, buy 6 so promo kicks in twice",
+                    name: "Scenario 8: Avocados on 3 for $3, buy 6 so promo kicks in twice",
                     products: Products,
                     promotions: new Dictionary<int, IPromotion>
                     {
